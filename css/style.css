@@ -1,2 +1,12 @@
-   
+ 
+ .jumbotron
 
+ .cardcontainer{
+    display: grid;
+    align-content: space-between;
+
+ }
+
+.card {
+ 
+}
