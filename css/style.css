@@ -1,12 +1,30 @@
  
- .jumbotron
+
+body {
+    background-color: pink;
+
+}
+
+ .navbar {
+  
+ }
+
+  
+ .jumbotron {
+    display: grid;
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+ }
+
+ .jumbotron img{
+  
+ }
 
  .cardcontainer{
     display: grid;
     align-content: space-between;
-
  }
 
 .card {
- 
+ background-color: aliceblue;
 }
