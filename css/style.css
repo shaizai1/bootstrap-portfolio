@@ -5,10 +5,6 @@ body {
 
 }
 
- .navbar {
-  
- }
-
   
  .jumbotron {
     display: grid;
@@ -17,14 +13,16 @@ body {
  }
 
  .jumbotron img{
+
   
  }
 
  .cardcontainer{
     display: grid;
-    align-content: space-between;
+    justify-content: space-between;
  }
 
 .card {
  background-color: aliceblue;
+ 
 }
