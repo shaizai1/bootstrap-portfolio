@@ -20,15 +20,19 @@ body {
   display: grid;
   text-align: center;
   margin: 20px;
-  justify-content:space-around;
+  
 
 }
 
 .card {
  background-color: lavender;
  padding:25px;
+ align-items: center;
  
 }
 .card img{
     height: 80%;
+}
+.row {
+  display: row;
 }
