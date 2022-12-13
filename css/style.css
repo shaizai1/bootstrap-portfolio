@@ -1,28 +1,34 @@
  
 
 body {
-    background-color: pink;
+    background-color: lavenderblush;
 
 }
+.content {
 
+}
   
  .jumbotron {
     display: grid;
-    background-color: aliceblue;
+    background-color:pink;
     color: rgb(0, 0, 0);
+    margin: 40px;
  }
 
- .jumbotron img{
 
-  
- }
+.cardcontainer {
+  display: grid;
+  text-align: center;
+  margin: 20px;
+  justify-content:space-around;
 
- .cardcontainer{
-    display: grid;
-    justify-content: space-between;
- }
+}
 
 .card {
- background-color: aliceblue;
+ background-color: lavender;
+ padding:25px;
  
+}
+.card img{
+    height: 80%;
 }

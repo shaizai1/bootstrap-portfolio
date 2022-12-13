@@ -15,27 +15,39 @@
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar w/ text</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="#">SI</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarText">
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Projects
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Project 1</a>
+            <a class="dropdown-item" href="#">Project 2</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Recommendations</a>
+          </div>
         </li>
       </ul>
-      <span class="navbar-text">
-        Navbar text with an inline element
-      </span>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
     </div>
   </nav>
+
+
 
   <div class="jumbotron">
     <img src="https://github.com/shaizai1/challenge3/blob/main/images/girl.jpeg?raw=true" alt="">
@@ -44,11 +56,10 @@
     <hr class="my-4">
     <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
     <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-  
   </div>
 
-  <div class="card-container">
-  <div class="card mb-3">
+  <div class="cardcontainer">
+    <div class="card mb-3">
     <img src="https://github.com/shaizai1/challenge3/blob/main/images/bird.jpeg?raw=true" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
@@ -56,35 +67,53 @@
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>
+  </div>
 
+  <div class="row"> 
+  <div class="cardcontainer">
   <div class="card" style="width: 18rem;">
-    <img src="/repos/challenge3/images/leaf.jpeg" class="card-img-top" alt="...">
+    <img src="https://github.com/shaizai1/challenge3/blob/main/images/leaf.jpeg?raw=true" class="card-img-top" alt="...">
     <div class="card-body">
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     </div>
   </div>
-
-  <div class="card" style="width: 18rem;">
-    <img src="/repos/challenge3/images/pink.jpeg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    </div>
   </div>
 
+  <div class="row"> 
+  <div class="cardcontainer">
   <div class="card" style="width: 18rem;">
-    <img src="/repos/challenge3/images/orange.jpeg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    </div>
-  </div>
-
-  <div class="card" style="width: 18rem;">
-    <img src="/repos/challenge3/images/sky.jpeg" class="card-img-top" alt="...">
+    <img src="https://github.com/shaizai1/challenge3/blob/main/images/pink.jpeg?raw=true" class="card-img-top" alt="...">
     <div class="card-body">
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     </div>
   </div>
 </div>
+</div>
+
+<div class="row"> 
+<div class="cardcontainer">
+    <div class="card" style="width: 18rem;">
+    <img src="https://github.com/shaizai1/challenge3/blob/main/images/orange.jpeg?raw=true" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  <div class="row"> 
+  <div class="cardcontainer"></div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://github.com/shaizai1/challenge3/blob/main/images/sky.jpeg?raw=true" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+
 
 
 
